@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/LogoPortfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Draggable.min.js"></script>
+    <script src="vanillatilt.js"></script>
+    <script src="script.js" defer></script>
+    <title>Portfolio - Hymon</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mobile-waning">
+            <p class="mobile">Ce site n'est pas adapté au format Mobile. <br/> Merci de l'ouvrir sur un ordinateur.</p>
+            <p class="firefox">Ce site n'est pas adapté à FireFox. <br/> Merci de l'ouvrir sur un autre navigateur.</p>
+        </div>
+        <div class="imageFullScreen">
+            <div class="overlay"></div>
+            <button class="close">&#x2716;</button>
+            <div class="image">
+                <img class="overlayImage" src="" alt="Image full screen">
+            </div>
+        </div>
+        <section class="main">
+            <div class="title">
+                <h2 class="portfolio">
+                    <span>POR-</span>
+                    <span>TFO-</span>
+                    <span>LIO.</span>
+                </h2>
+                <h2 class="portfolio stroke">
+                    <span>POR</span>
+                    <span>TFO</span>
+                    <span>LIO.</span>
+                </h2>
+                <img class="rectangles" src="assets/Rectangles.png" alt="rectangles">
+                <span class="prenom">Mathys</span>
+                <span class="nom">Hymon</span>
+            </div>
+        </section>
+        <section class="graphisme">
+            <div class="graphism__header">
+                <h3>
+                    <span>GRA</span>
+                    <span>PHI</span>
+                    <span>SME</span>
+                    <p class="graphism__infos">J'ai commencé par des études en communication au lycée Saint Géraud à Aurillac où j'ai réellement découvert le métier de graphiste. Elles m'ont permis de créer mon style graphique et d'élargir ma culture artistique.</p>
+                </h3>
+                <p>J'ai eu à réaliser, pour l'obtention de mon bac, trois dossiers sur différentes thématiques. Ces travaux résument plutôt bien mon approche du graphisme en général.</p>
+            </div>
+            <div class="graphism-group">
+                <div class="graphism__item">
+                    <a href="assets/graphismes/Dossier_1.pdf" target="_blank"><img src="assets/graphismes/GraphismePic_1.png" alt="graphism1"></a>
+                    <p>Ce premier dossier avait pour thématique le design d'objet. Il nous était demandé d'imaginer, de créer et de défendre notre invention devant un jury à l'aide d'un support visuel.</p>
+                </div>
+                <div class="graphism__item">
+                    <a href="assets/graphismes/Dossier_2.pdf" target="_blank"><img src="assets/graphismes/GraphismePic_2.png" alt="graphism1"></a>
+                    <p>Ce second document est le support visuel de synthèse des divers stages en entreprises réalisés dans le cadre de mon Bac pro.</p>
+                </div>
+                <div class="graphism__item">
+                    <a href="assets/graphismes/Dossier_3.pdf" target="_blank"><img src="assets/graphismes/GraphismePic_3.png" alt="graphism1"></a>
+                    <p>Ce dernier dossier présente le résultat des thèmes imposés, dans le cadre scolaire, en vue de la soutenance lors de l'examen.</p>
+                </div>
+            </div>
+        </section>
+        <section class="games">
+            <div class="games__header">
+                <h3>
+                <span>CRÉATION</span>
+                <span>DE JEU</span>
+                </h3>
+            </div>
+            <div class="games__group">
+                <div class="game_flee">
+                    <div class="flee_header">
+                        <p class="game_date">2019-2021</p>
+                        <p class="game_name">Flee</p>
+                    </div>
+                    <p class="flee_description">
+                        J'ai commencé à m'intéresser à Unreal Engine 4 et plus précisément au BLUEPRINT quelques mois seulement après le début de mon entrée en classe de seconde en imaginant un premier jeu, Flee, dont j'ai élaboré tout le Game Design Document, les chara design etc. Bien que je sois novice, le jeu a plu, agrégeant une communauté d'une centaine de personnes soutenant le projet par leur présence. J'ai réussi à réunir une dizaine de bénévoles pour m'assister dans son développement. Bien trop ambitieux pour un premier projet, il ne parvint malheureusement pas à terme.
+                        <br /> <br /> (il s'est officiellement arrêté courant 2020).
+                    </p>
+                    <div class="flee_gdd">
+                        <a href="assets/games/flee/gdd.pdf" target="_blank">GDD</a>
+                        <p class="gdd_description">Ce GDD date de 2019. Bien que très moyen car d'une esthétique assez faible et contenant quelques incohérences et fautes, j'ai tout de même choisi de le publier car il s'agit du seul existant pour ce jeu.</p>
+                    </div>
+                    <div class="flee-grid-layout">
+                        <div class="row">
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_1.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_2.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_3.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_4.png"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_5.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_6.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_7.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_8.png"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_9.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_10.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_11.png"/>
+                            </div>
+                            <div class="image">
+                                <img class="openable" src="assets/games/flee/Flee_12.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="flee_layout_description">
+                        A noter que les modèles et la plupart des sketches, exceptés ceux du personnage principal, ne sont pas mes réalisations, mon rôle s'étant limité à imaginer les personnages, leur globalité, leur caractère etc. J'ai laissé à des artistes bien plus compétents que moi le soin de créer des designs qui matchent avec l'idée que j'en avais et de créer les modèles et les rigs des personnages.
+                    </p>
+                    <div class="flee_footer">
+                        <p class="flee_footer_date">2021</p>
+                        <div class="flee_footer_body">
+                            <p class="flee_footer_description">Frustré de l'abandon de Flee j'ai relancé le projet en 2021, créant cette fois ci par moi-même en totalité une carte, des arbres, de l'herbe, des textures me permettant de modeler comme je le voulais le terrain pour créer la map idéale. Cette refonte s'avérant malgré tout à nouveau un projet trop ambitieux j'ai préféré le mettre de côté et me pencher sur mes autres projets bien plus réalisables.</p>
+                            <div class="flee_footer_images">
+                                <div class="image">
+                                    <img class="openable" src="assets/games/flee/Flee_footer_1.png"/>
+                                </div>
+                                <div class="image">
+                                    <img class="openable" src="assets/games/flee/Flee_footer_2.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game_doors">
+                    <div class="doors_header">
+                        <p class="game_date">2020-202X</p>
+                        <p class="game_name">DOORS AND BUTTONS</p>
+                    </div>
+                    <div class="doors_slider">
+                        <p class="doors_slider_description">Après avoir découvert UE4 en travaillant sur Flee,
+                            nous avons décidé, avec un ami, de participer à une
+                            gamejam, la Woowie Game Jam. Sur le moment nous
+                            n'avons pas réussi à tenir le délai qui était de 1 weekend pour la réalisation du jeu mais nous avons réussi
+                            à faire suffisamment pour trouver un fil rouge et une
+                            charte graphique correcte. Nous n'avons pas poussé
+                            le concept plus loin sur le moment.
+                            </p>
+                        <div class="doors_slider_images">
+                            <div class="imagecompare">
+                                <div class="imagecompare-content">
+                                    <div class="">
+                                        <img src="assets/games/doorsandbuttons/DAB1_before.png" alt="doorsandbuttons before">
+                                    </div>
+                                    <div class="">
+                                        <img src="assets/games/doorsandbuttons/DAB1_after.png" alt="doorsandbuttons after">
+                                    </div>
+                            </div>
+                            <div class="imagecompare-handle">
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="doors_gif">
+                        <div class="gif">
+                            <img class="openable" src="assets/games/doorsandbuttons/Gif1.gif" alt="Gif doors and button">
+                        </div>
+                        <p class="doors_gif_description">Ce n'est qu'en fin 2021 que nous nous sommes replongés sur le jeu
+                        afin de lui faire une refonte graphique et de l'optimiser tout en lui
+                        écrivant une histoire.
+                        </p>
+                    </div>
+                    <div class="doors_videos">
+                        <div class="doors_video_element">
+                            <div class="video">
+                                <video autoplay loop preload>
+                                    <source src="assets/games/doorsandbuttons/video1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <p class="doors_videos_description">
+                                    Il se veut être un “Portal like”. Le joueur y incarne
+                                    un petit robot dans une des nombreuses salles
+                                    de formation du complexe visant à l'entraîner
+                                    pour les tâches qu'il aura à réaliser dans sa vie
+                                    de robot. Malheureusement
+                            </p>
+                        </div>
+                        <div class="doors_video_element">
+                            <div class="video">
+                                <video autoplay loop preload>
+                                    <source src="assets/games/doorsandbuttons/video2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <p class="doors_videos_description">
+                                les tests ne se passeront pas comme prévu lorsqu'un intru se
+                                glissera dans les logiciels du complexe et
+                                retournera les machines les unes contre les
+                                autres.                            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="doors_footer">
+                        <p class="doors_footer_description">Une version de débug et de
+                            développement est disponible sur
+                            itch.io avec 4 mini niveaux de test
+                            et une première version d'un boss.</p>
+                        <a href="https://mathyshymon.itch.io/dab-test" target="_blank"><img src="assets/games/doorsandbuttons/logo.png" alt="doors and button logo"></a>
+                    </div>
+                </div>
+                <div class="game_makeit">
+                    <div class="makeit_header">
+                        <p class="game_date">2010-202X</p>
+                        <p class="game_name">MAKE IT</p>
+                    </div>
+                    <div class="makeit_intro">
+                        <img src="assets/games/makeit/MakeIT_LOGO.png" alt="make it logo">
+                        <p class="makeit_intro_description">Make IT est un jeu qui vous met dans la peau d'un
+                            entrepreneur prêt à tout pour monter sa startup à
+                            succès. <br /> <br />
+                            Il s'agit d'un jeu de gestion ou vous choisissez quelle
+                            sorte de patron vous serez. Préférerez vous avoir un
+                            syndicat pour vos employés, offrir des chèques
+                            cadeaux, deux semaines de vacances à Noël et un
+                            13e mois ? Ou voudrez vous plutôt enchaîner vos
+                            employés à leurs bureaux, arrêter de les payer et
+                            cacher les cadavres de ceux qui n'ont pas tenu dans
+                            une remise ? Car après tout si l'inspecteur du travail
+                            ne les voit pas, c'est qu'ils n'existent pas.
+                        </p>
+                    </div>
+                    <div class="makeit_body">
+                        <div class="makeit_begin">
+                            <p class="makeit_begin_description">
+                                    J'ai commencé le jeu en réalisant la totalité des assets, personnages, <br />
+                                    rigs, etc. C'était une première pour moi pour de la 3D.<br /><br />
+                                    Pour le gameplay, make it est un jeu en vue du dessus avec un système
+                                    d'active ragdoll ce qui permet d'avoir des animations procédurales et
+                                    ainsi d'avoir quelque chose de plus “fun”. Le jeu s'inspire de human fall
+                                    flat pour les déplacements et de two point hospital pour l'idée et le
+                                    gameplay, deux jeux que j'apprécie tout particulièrement. UE4 n'arrivant
+                                    pas totalement à gérer les collisions du ragdoll et ne faisant pas, à ce
+                                    moment là, de reverse kinematic, je relançais le projet sur Unity en fin
+                                    2021. Mais je n'ai pas réussi à me familiariser à ce moteur et faire sans
+                                    le BP. Avec l'arrivé de UE5 et du reverse kinematic je compte reprendre
+                                    le projet afin de le mener à terme.
+                            </p>
+                            <div class="makeit_begin_layout">
+                                <div class="images">
+                                    <iframe src="https://www.youtube.com/embed/8N5KaiWuza8?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="images">
+                                    <iframe src="https://www.youtube.com/embed/SelS1bvoO38?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="makeit_gdd">
+                            <a class="image" target="_blank" href="assets/games/makeit/GameDesignMAKEIT_04.02.22.pdf">
+                                <img src="assets/games/makeit/MakeIT_GDD.png" >
+                            </a>
+                            <p class="makeit_gdd_description">Il s'agit du GDD de make IT que j'ai
+                                commencé à réaliser mi-2022 lorsque
+                                j'ai décidé de reprendre sérieusement le
+                                projet celui ci n'est pas encore terminé
+                                mais je trouve que c'est un bel exemple
+                                de mon évolution personnelle dans le
+                                game design.
+                            </p>
+                        </div>
+                        <div class="makeit_layout">
+                            <p class="makeit_layout_description">Pendant l'élaboration de ce
+                                dossier j'ai décidé de
+                                reprendre activement le
+                                développement du jeu en
+                                repartant de zéro et en
+                                refaisant quelque chose de
+                                propre et de plus
+                                fonctionnel.
+                            </p>
+                            <div class="makeit_layout_grid">
+                                <div class="row">
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_1.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_2.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_3.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_4.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_5.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_6.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_7.png">
+                                    </div>
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_8.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="image">
+                                        <img class="openable" src="assets/games/makeit/MakeIT_9.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="makeit_layout_grid_description">
+                                        J'ai donc repris mon Trello de zéro et ai créé un système de construction de pièces avec différents
+                                        papiers peints, sols et spécificités à la manière de two point hospital ou des sims ainsi qu'une
+                                        gestion de ragdoll et un chariot élévateur. Le tout en retravaillant l'optimisation globale du jeu. Les
+                                        différentes fonctionnalités ayant été créé dans un laps de temps très court (1 mois) je n'ai pas eu le
+                                        temps de peaufiner d'avantage.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="game_cactus">
+                    <div class="cactus_header">
+                        <p class="game_date">2020-202X</p>
+                        <p class="game_name">CACTUS CANYON</p>
+                    </div>
+                    <div class="cactus_intro">
+                        <div class="cactus_grid_image">
+                            <div class="image">
+                                <img class="openable" src="assets/games/cactuscanyon/CactusCanyon_1.png">
+                            </div>
+                            <p>premiers sketches du personnage</p>
+                        </div>
+                        <p class="cactus_intro_description">Cactus canyon est un jeu en plusieurs
+                            étapes. Initialement pensé pour être un
+                            rogue lite sur téléphone en vue du
+                            dessus avec génération de donjons
+                            procéduraux, il prendra finalement la
+                            direction d'un jeu pc avec un gameplay
+                            nerveux à la manière de Titanfall II ou
+                            Apex en vue à la première personne.
+                            </p>
+                    </div>
+                    <div class="cactus_body">
+                        <div class="cactus_elem">
+                            <p class="cactus_elem_description">Cactus Canyon est aussi le premier jeu
+                                que je réalise intégralement seul, que ce
+                                soit la rédaction de l'histoire, les chara
+                                designs, le code etc.
+                            </p>
+                            <div class="image">
+                                <img class="openable" src="assets/games/cactuscanyon/CactusCanyon_2.png"> 
+                            </div>
+                        </div>
+                        <div class="cactus_elem">
+                            <p class="cactus_elem_description">Pour les précédents jeux je me suis
+                                occupé de superviser le projet, du code,
+                                de la création de l'univers et de l'histoire
+                                mais je déléguais souvent le chara
+                                design, l'illustration, l'animation voir
+                                l'écriture du scénario pour ne pas me
+                                surcharger de travail.   
+                            </p>
+                            <div class="image">
+                                <img class="openable" src="assets/games/cactuscanyon/CactusCanyon_3.gif"> 
+                            </div>
+                        </div>
+                        <div class="cactus_elem">
+                            <div class="image">
+                                <img class="openable" src="assets/games/cactuscanyon/CactusCanyon_4.png"> 
+                            </div>
+                            <p class="cactus_elem_description">La seule chose que je n'ai pas fait seul car je n'en ai pas les
+                                compétences, c'est en fin d'année 2022 lorsque j'ai décidé
+                                de transformer le jeu initialement mobile et 2D en fps que
+                                j'ai du demander de l'aide pour transformer ce robot 2D en
+                                un model 3D.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game_end">
+                    <a class="symbol_up" href="#">&gt;</a>
+                    <h3 class="portfolio">
+                        <span>F</span>
+                        <span>I</span>
+                        <span>N</span>
+                    </h3>
+                    <h2 class="portfolio stroke">
+                        <span>F</span>
+                        <span>I</span>
+                        <span>N</span>
+                    </h2>
+                    <a class="symbol_down">&lt;</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
